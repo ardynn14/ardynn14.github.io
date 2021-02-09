@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-family: 'Pacifico', cursive;
+}
+/* body */
+body{
+    background-image: url("./img/pngtree-cute-doodle-burger-pattern-image_314974.jpg");
+    background-repeat: repeat;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* header */
+#header{
+    background-image: url("https://images.unsplash.com/photo-1428660386617-8d277e7deaf2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-y: -450px;
+    width: 100vw;
+    /* height: 200px; */
+    background-color: rgba(37, 37, 37, 0.377);
+    background-blend-mode: screen;
+    vertical-align: middle;
+    z-index: 10;
+}
+#logo{
+    background-color: rgba(245, 245, 245, 0);
+    color: #00b1f6;
+    font-size: 70px;
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 40px 0;
+}
+
+/* navbar */
+#navbar{
+    width: 60%;
+    background-color: #00b1f6;
+    position: sticky;
+    height: 60px;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+    padding: 0 20%;
+}
+
+#navbar h3{
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: #00b0f600;
+    display: inline;
+    float: left;
+    height: 100%;
+}
+
+#reset-btn{
+    border: none;
+    background-color: #00b1f6;
+    color: whitesmoke;
+    display: inline;
+    float: right;
+    font-size: 30px;
+    width: 150px;
+    height: 100%;
+    transition: all 0.5s;
+    outline: none;
+}
+
+#reset-btn:hover{
+    background-color: whitesmoke;
+    color: #00b1f6;
+    transition: all 0.5s;
+}
+
+/* item */
+.section-title{
+    margin: 0 10%;
+    color: #00b1f6;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px dotted #00b1f6;
+}
+
+#items{
+    padding-top: 20px;
+    margin: 0 15%;
+    text-align: center;
+    box-shadow: 0px 0px 20px 5px rgb(78, 78, 78);
+    min-height: 100%;
+}
+
+.item-card{
+    display: inline-block;
+    width: 250px;
+    border: 3px solid #00b1f6;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 40px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+.item-card:hover{
+    box-shadow: 0px 0px 10px rgb(80, 80, 80);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.item-name{
+    color: #00b1f6;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.item-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    border: 3px solid #00b1f6;
+    border-radius: 10px;
+}
+.item-price{
+    color: #00b1f6;
+    margin-bottom: 10px;
+}
+
+/* footer */
+footer{
+    width: 100vw;
+    height: 200px;
+    background-color: #00b1f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+}
+
+h5{
+    background-color: rgba(245, 245, 245, 0);
+    color: whitesmoke;
+}
+
+h5 i{
+    background-color: rgba(245, 245, 245, 0);
+    color: whitesmoke;
+}
