@@ -16,6 +16,10 @@ let quotes = [
         author : "Jihan",
     },
     {
+        quote : "Lebih baik berani mencoba dan kemudian mengalami kegagalan, dan kemudian mencoba lagi, daripada takut mencoba dan mengerdil dalam tiadanya perubahan.",
+        author : "Dila",
+    },
+    {
         quote : "Aku ingin keberadaan ku bisa membawa perubahan yang baik, walaupun hanya sedikit",
         author : "Ardi",
     }
